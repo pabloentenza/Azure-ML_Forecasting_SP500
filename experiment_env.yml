@@ -1,0 +1,16 @@
+
+name: experiment_env
+
+dependencies:
+- python=3.8.10
+- scikit-learn
+- ipykernel
+- matplotlib
+- statsmodels
+- pandas
+- typing
+- pip
+- pip:
+   - azureml-defaults
+   - pyarrow
+
